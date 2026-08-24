@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnpm/
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Build outputs
+dist/
+.next/
+.turbo/
+turbo.log
+build/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Runtime
+.nuxt/
+.cache/
+*.log
+logs/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Generated
+prisma/migrations/
+generated/
